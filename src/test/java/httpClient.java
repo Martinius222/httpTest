@@ -22,6 +22,8 @@ public class httpClient {
         assertEquals(8, 4+4);
     }
 
+    // This is a commit test commentary
+
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("urlecho.appspot.com", 80);
         socket.getOutputStream().write("GET /echo?status=200&Content-Type=text%2Fhtml&body=Hello%20world! HTTP/1.1\r\n".getBytes());
